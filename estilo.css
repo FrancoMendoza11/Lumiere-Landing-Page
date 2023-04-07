@@ -1,0 +1,480 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    align-items:center;
+}
+
+header div h1{
+    font-family: 'Cedarville Cursive', cursive;
+}
+
+a{
+    margin-left: 30px;
+    text-decoration: none;
+    color: #252425;
+}
+
+p{
+    line-height: 23px;
+}
+
+.hero p a{
+    margin-left: 0px;
+}
+
+
+.hero{
+    background-image: url(fotografia-artistica.jpg);
+    background-size: cover;
+    background-position: right;
+    color: #252425;
+    height: 100vh;
+}
+
+.hero h1{
+    position: absolute;
+    left: 20vh;
+    bottom: 40vh;
+    font-size: 100px;
+}
+
+.hero p{
+    position: absolute;
+    left: 20vh;
+    bottom: 25vh;
+    font-size: 30px;
+}
+
+.hero img{
+    margin-left: 100vh;
+    width: 100vh;
+    height: 100vh;
+}
+
+.hero button{
+    position: absolute;
+    left: 20vh;
+    bottom: 15vh;
+    height: 50px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: white;
+    color: #252425;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+}
+
+.cursos{
+    display:flex;
+    margin-top: 20vh;
+    padding: 10vh;
+} 
+
+.cursos h1{
+    color:#252425;  
+    position: absolute;
+    left: 70vh;
+    bottom: -25vh;
+    font-size: 50px;
+}
+
+.cursos div p{
+    text-align:justify;   
+}
+
+.cuadrado1{
+    margin-left: 10vh;
+}
+
+.cuadrado1, .cuadrado2, .cuadrado2{
+    margin-right: 5vh;
+} 
+
+.cuadrado1 img, .cuadrado2 img, .cuadrado2 img{
+    margin-left: 5vh;
+} 
+
+.cuadrado1 h2,.cuadrado2 h2,.cuadrado3 h2{
+    margin-top: 40px;
+    color:#252425;  
+} 
+
+.cuadrado1 button,.cuadrado2 button, .cuadrado3 button{
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    background-color:#252425;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    margin-top: 20px;
+}
+
+.cuadrado1 p,.cuadrado2 p, .cuadrado3 p{
+    margin-top: 20px;
+}
+
+.programa, .oferta{
+    background: linear-gradient(70deg, #252425, #61575B,  #7C7679);
+    text-align: center;
+    justify-content: center;
+    padding: 15vh;
+}
+
+.programa h1, .oferta h1{
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.programa p, .oferta p{
+    color: white;
+    margin-top: 35px;
+}
+
+.programa p{
+    font-size: 20px;
+}
+
+.oferta p{
+    font-size: 40px;
+}
+    
+.programa button, .oferta button{
+    margin-top: 35px;
+    height: 50px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: white;
+    color: #252425;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+}
+
+.imagen-decoration{
+    background-image: url(fotografia3.jpg);
+    padding: 35vh;
+    background-size: cover;
+    background-position: right;
+}
+
+.aboutus{
+    padding:10vh
+}
+
+.rectangulo{
+    position: absolute;
+    z-index: -1;
+    width: 300px; 
+    height: 600px; 
+    background: linear-gradient(70deg, #252425, #61575B,  #7C7679);
+    border-bottom-right-radius: 250px;
+    right: 10vh;
+}
+
+.texto-about-us{
+    width: 60vh;
+    margin-top: 10px;
+    margin-left: 250px;
+    text-align: justify;
+}
+
+.texto-about-us h1{
+    font-weight: bold;
+    font-size: 50px;
+    color: #252425;
+}
+
+.texto-about-us p{
+    margin-top: 40px;
+}
+
+.cuadro-about1{
+   margin-top: -600px;
+}
+
+.cuadro-about1, .cuadro-about2, .cuadro-about3{
+   background-color: white;
+   border: solid 2px #61575B;
+   width: 360px;
+   text-align: end;
+   margin-left: 110vh; 
+   border-radius: 10px;
+   padding: 5px;
+   box-shadow: 1px 1px 10px#252425;
+   text-align: justify;
+}
+
+
+.cuadro-about2, .cuadro-about3{
+    margin-top: 40px;
+}
+
+.cuadro-about1 p, .cuadro-about2 p, .cuadro-about3 p, .cuadro-about1 h2, .cuadro-about2 h2, .cuadro-about3 h2{
+    margin-right: 20px;
+}
+
+.cuadro-about1 p, .cuadro-about2 p, .cuadro-about3 p{
+    margin-top: 10px;
+}
+
+.aboutus1{
+    height: 70px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.aboutus2{
+    height: 70px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.aboutus3{
+    height: 70px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.rewiews{
+    display: flex;
+    padding: 15vh;
+    background-color:  whitesmoke; 
+}
+
+.rewiews h1{
+    color: #252425;
+    display: block;
+}
+
+.rewiews img{
+    height: 70px;
+}
+
+.reviews1 div h1, .reviews1 div p{
+    text-align: justify;
+}
+
+.titulo{
+     display:inline-block;
+     height: 60px;
+     margin-left: 100px;
+}
+
+.titulo h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #252425;
+    margin-left: 35vh;
+    position: absolute;
+}
+
+.rewiews1{
+    display: flex;
+    margin-top: 100px;
+    margin-left: -45px;
+}
+
+.rewiews1 p, .rewiews1 h1{
+    margin-right: 100px;
+    text-align: justify;
+}
+
+.rewiews1 p{
+    margin-top: 30px;
+}
+
+.rewiews1 div{
+    margin-left: 50px;
+    margin-top: 70px;
+    width: 100%
+}
+
+.rewiews img{
+    position:absolute;
+    bottom: 10vh;
+}
+
+.soporte{
+   padding-top: 20px;
+}
+
+.lista-soporte{
+    margin-top: 15px;
+    line-height: 30px;
+    margin-left: 70px;
+}
+
+
+.imagen img{
+    width: 70vh;
+    position: absolute;
+    margin-top: 20vh;
+    margin-left: 10vh;
+    box-shadow: 1px 1px 5px 1px #61575B;
+}
+
+.texto{
+    margin-left: 100vh;
+    width: 50%;
+    display: flex;
+}
+
+.texto, .imagen{
+    margin-bottom: 100px;
+}
+
+.texto div h1{
+   color: #252425;
+   font-size: 35px;
+   font-weight: bold;
+   margin-bottom: 20px;
+}
+
+.texto div p{
+    margin-top: 30px;
+}
+
+.texto div p b{
+    color: #252425;
+}
+
+.contact{
+    padding: 20vh;
+}
+
+.contact h1{
+    color: #252425;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-left: 65vh;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+  
+.form-row {
+    display: flex;
+    justify-content: space-between;
+}
+  
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+  
+label{
+    margin-bottom: 5px;
+}
+  
+input[type="text"],input[type="email"],textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+  
+button[type="submit"] {
+    background-color: #252425;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 30vh;
+    width: 200px;
+}
+  
+  
+.name{
+    width: 250px;
+}
+
+.mail{
+    width: 250px;
+}
+ 
+textarea{
+    height: 200px;
+}
+
+.social{
+    background: linear-gradient(70deg, #252425, #61575B,  #7C7679);
+    height: 30vh;
+    display: flex;
+}
+
+.social img{
+    margin: 0;
+    height: 30vh;
+}
+
+.social div{
+    margin-left: 60vh;
+    margin-top: 15vh;
+}
+
+i{
+    color: white;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.copyright{
+    padding: 3vh;
+}
+
+.copyright p{
+    margin-left: 70vh;
+    color: #61575B;
+}
+
+/* Apartado de animaciones */
+
+.animar:hover{
+    background: linear-gradient(70deg, #252425, #61575B,  #7C7679);
+    color: white;
+}
+
+.animar2:hover{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+header div a:hover{
+    text-decoration: overline;
+}
+
+input, textarea{
+    box-shadow: 1px 1px 5px 1px #61575B;
+    outline: none;
+}
+
+.cursos div img{
+    box-shadow: 1px 1px 10px#61575B;
+}
+
+.cursos div img:hover{
+    box-shadow: 2px 2px 10px 2px #61575B;
+}
+
+
