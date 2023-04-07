@@ -15,8 +15,9 @@ header{
     align-items:center;
 }
 
-header div h1{
-    font-family: 'Cedarville Cursive', cursive;
+header div a{
+    width: 30%;
+    height: 10%;
 }
 
 a{
