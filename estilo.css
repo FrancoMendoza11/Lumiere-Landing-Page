@@ -146,6 +146,11 @@ p{
     margin-top: 20px;
 }
 
+.nivel{
+    width: 217px;
+    height: 199px;
+}
+
 .botones{
     width: 100%;
     display: flex;
