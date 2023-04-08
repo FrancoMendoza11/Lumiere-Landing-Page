@@ -515,7 +515,7 @@ input, textarea{
 
 /* Comienzo de diseño responsive*/
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 800px){
 
     body{
        width: 100%;
@@ -575,6 +575,7 @@ input, textarea{
     .programa{
         text-align: center;
         padding-bottom: 30vh;
+        justify-items: center;
     }
 
     .programa h1{
@@ -588,13 +589,19 @@ input, textarea{
     }
 
     .programa div button{
-        position: absolute;
-        left: 7vh;
+        justify-items: center;
+    }
+
+    .imagen-decoration{
+        display: none;
     }
 
     .rectangulo{
         display: none;
     }
-}
 
+    .soporte img{
+        display: none;
+    }
+}
 
