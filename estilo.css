@@ -81,39 +81,64 @@ p{
     display:flex;
     margin-top: 20vh;
     padding: 10vh;
-} 
+    flex-direction: column;
+    height: 100vh;
+    gap: 10vh;
+}
+
+.venta{
+    display: flex;
+    justify-content: space-evenly;
+    /* flex-direction: column; */
+   
+}
+
 
 .cursos h1{
     color:#252425;  
-    position: absolute;
-    left: 70vh;
+    /* position: absolute;
+    left: 70vh; */
     bottom: -25vh;
     font-size: 50px;
+    display: flex;
+    justify-content: center;
 }
 
 .cursos div p{
-    text-align:justify;   
+    text-align:center;  
+     
 }
 
-.cuadrado1{
-    margin-left: 10vh;
+.cuadrado1, .cuadrado2, .cuadrado3{
+    /* margin-left: 10vh; */
+    width: 20%;
 }
 
-.cuadrado1, .cuadrado2, .cuadrado2{
+/* .cuadrado1, .cuadrado2, .cuadrado2{
     margin-right: 5vh;
-} 
+}  */
 
-.cuadrado1 img, .cuadrado2 img, .cuadrado2 img{
-    margin-left: 5vh;
-} 
+ .cuadrado1 img, .cuadrado2 img, .cuadrado2 img{
+    display: flex;
+    justify-content: center;
+}  
+
+.cuadrados{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 
 .cuadrado1 h2,.cuadrado2 h2,.cuadrado3 h2{
+    display: flex;
+    justify-content: center;
     margin-top: 40px;
     color:#252425;  
 } 
 
 .cuadrado1 button,.cuadrado2 button, .cuadrado3 button{
-    width: 250px;
+    width: 60%;
     height: 50px;
     border-radius: 10px;
     background-color:#252425;
@@ -122,6 +147,12 @@ p{
     font-weight: bold;
     border: none;
     margin-top: 20px;
+}
+
+.botones{
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .cuadrado1 p,.cuadrado2 p, .cuadrado3 p{
