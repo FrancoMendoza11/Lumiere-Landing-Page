@@ -536,18 +536,48 @@ input, textarea{
        width: 100%;
     }
 
-    .menu-responsive{
+    header {
         display: flex;
-    }
-
-    header .nav a{
-        display: none;
+        flex-direction: column;
     }
 
     header div a img{
-        height: 30px;
+        margin-left: 25%;
+    }
+      
+    .nav {
+        display: none;
         width: 100%;
     }
+      
+    .menu-responsive-btn {
+        display: block;
+        background: none;
+        border: none;
+        margin-right: 10px;
+    }
+      
+    .menu-responsive {
+        width: 30px;
+        height: 30px;
+        display: block;
+    }
+      
+    .nav a {
+        display: block;
+        padding: 10px;
+        border-bottom: 1px solid #fff;
+    }
+      
+    .nav a:last-child {
+        border-bottom: none;
+    }
+      
+    .nav.show {
+        display: block;
+        margin-top: 10px;
+    }
+    
     
     .hero{
         background: linear-gradient(70deg, #252425, #61575B,  #7C7679);
@@ -557,7 +587,7 @@ input, textarea{
         color: white;
         font-size: 50px;
         position: absolute;
-        top: 25vh;
+        top: 30vh;
         left: 5vh;   
     }
 
@@ -572,6 +602,10 @@ input, textarea{
         top: 50vh;
     }
 
+    .cuadrados{
+        justify-items: center;
+    }
+
     .cursos{
         height: 100%;
         text-align: center;
@@ -582,12 +616,13 @@ input, textarea{
         display: block;
         width: 100%;
     }
-
+    
     .cursos img{
-        display: none;
+        margin-top: 20px;
     }
 
     .programa{
+        display: flex;
         text-align: center;
         padding-bottom: 30vh;
         justify-items: center;
@@ -597,14 +632,14 @@ input, textarea{
         display: none;
     }
 
-    .programa p{
+    .programa p{   
         margin-top: 10px;
         font-weight: bold;
         font-size: 30px;
     }
 
-    .programa div button{
-        justify-items: center;
+    .programa div{
+        justify-content: center;
     }
 
     .imagen-decoration{
@@ -618,5 +653,54 @@ input, textarea{
     .soporte img{
         display: none;
     }
-}
 
+    .aboutus{
+        display: flex;
+    }
+     
+    .texto-about-us{
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .rewiews{
+        justify-content: center;
+    }
+
+    .reseña2{
+        display: block;
+    }
+
+    .rewiews h1{
+        font-size: 30px;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .rewiews1{
+        display: block;
+        justify-content: center;
+        width: 200%;
+    }
+
+    .cuadro-about1, .cuadro-about2, .cuadro-about3{
+        display: none;
+    }
+
+    .oferta{
+        display: flex;
+    }
+
+    .oferta div{
+        justify-content: center;
+    }
+
+    .oferta div p{
+        line-height: 30px;
+    }
+
+    .copyright{
+        display: none;
+    }
+
+}
