@@ -230,8 +230,7 @@ p{
 
 .texto-about-us{
     width: 60vh;
-    /* margin-top: 10px;
-    margin-left: 250px; */
+
     text-align: justify;
 }
 
@@ -251,9 +250,7 @@ p{
     margin-top: 40px;
 }
 
-/* .cuadro-about1{
-   margin-top: -600px;
-} */
+
 
 .cuadro-about1, .cuadro-about2, .cuadro-about3{
    background-color: white;
