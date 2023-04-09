@@ -151,6 +151,7 @@ p{
     height: 199px;
 }
 
+
 .botones{
     width: 100%;
     display: flex;
@@ -209,7 +210,12 @@ p{
 }
 
 .aboutus{
-    padding:10vh
+    height: 100vh;
+    /* padding:10vh; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
 }
 
 .rectangulo{
@@ -224,9 +230,15 @@ p{
 
 .texto-about-us{
     width: 60vh;
-    margin-top: 10px;
-    margin-left: 250px;
+    /* margin-top: 10px;
+    margin-left: 250px; */
     text-align: justify;
+}
+
+.cuadros{
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .texto-about-us h1{
@@ -239,16 +251,16 @@ p{
     margin-top: 40px;
 }
 
-.cuadro-about1{
+/* .cuadro-about1{
    margin-top: -600px;
-}
+} */
 
 .cuadro-about1, .cuadro-about2, .cuadro-about3{
    background-color: white;
    border: solid 2px #61575B;
    width: 360px;
    text-align: end;
-   margin-left: 110vh; 
+   /* margin-left: 110vh; esto esta mal */
    border-radius: 10px;
    padding: 5px;
    box-shadow: 1px 1px 10px#252425;
@@ -286,6 +298,7 @@ p{
     margin-top: 5px;
 }
 
+/* Fin about */
 .rewiews{
     display: flex;
     padding: 15vh;
