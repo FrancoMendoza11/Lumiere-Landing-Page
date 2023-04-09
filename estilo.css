@@ -234,7 +234,7 @@ p{
 }
 
 .cuadro-about1{
-   margin-top: -600px;
+   margin-top: -105vh;
 }
 
 .cuadro-about1, .cuadro-about2, .cuadro-about3{
@@ -520,18 +520,48 @@ input, textarea{
        width: 100%;
     }
 
-    .menu-responsive{
+    header {
         display: flex;
-    }
-
-    header .nav a{
-        display: none;
+        flex-direction: column;
     }
 
     header div a img{
-        height: 30px;
+        margin-left: 25%;
+    }
+      
+    .nav {
+        display: none;
         width: 100%;
     }
+      
+    .menu-responsive-btn {
+        display: block;
+        background: none;
+        border: none;
+        margin-right: 10px;
+    }
+      
+    .menu-responsive {
+        width: 30px;
+        height: 30px;
+        display: block;
+    }
+      
+    .nav a {
+        display: block;
+        padding: 10px;
+        border-bottom: 1px solid #fff;
+    }
+      
+    .nav a:last-child {
+        border-bottom: none;
+    }
+      
+    .nav.show {
+        display: block;
+        margin-top: 10px;
+    }
+    
     
     .hero{
         background: linear-gradient(70deg, #252425, #61575B,  #7C7679);
@@ -541,7 +571,7 @@ input, textarea{
         color: white;
         font-size: 50px;
         position: absolute;
-        top: 25vh;
+        top: 30vh;
         left: 5vh;   
     }
 
@@ -627,16 +657,15 @@ input, textarea{
 
     .rewiews h1{
         font-size: 30px;
-        
+        margin: 0 auto;
+        justify-content: center;
     }
 
-    .rewiews1 div{
+    .rewiews1{
         display: block;
         justify-content: center;
-        width: 100%;
+        width: 200%;
     }
-
-
 
     .cuadro-about1, .cuadro-about2, .cuadro-about3{
         display: none;
@@ -654,5 +683,10 @@ input, textarea{
         line-height: 30px;
     }
 
+    .copyright{
+        display: none;
+    }
+
 }
+
 
