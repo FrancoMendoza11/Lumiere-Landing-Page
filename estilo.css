@@ -656,6 +656,7 @@ input, textarea{
 
     .aboutus{
         display: flex;
+        margin-left: 3vh;
     }
      
     .texto-about-us{
@@ -665,6 +666,9 @@ input, textarea{
 
     .rewiews{
         justify-content: center;
+        padding:1vh;
+        margin-left: 0;
+        width: 100%;
     }
 
     .reseña2{
@@ -674,7 +678,6 @@ input, textarea{
     .rewiews h1{
         font-size: 30px;
         margin: 0 auto;
-        justify-content: center;
     }
 
     .rewiews1{
@@ -699,8 +702,9 @@ input, textarea{
         line-height: 30px;
     }
 
-    .copyright{
-        display: none;
+    .copyright p{
+       margin-left: 0;   
+       text-align: center;
     }
 
 }
