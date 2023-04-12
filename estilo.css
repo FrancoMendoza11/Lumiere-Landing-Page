@@ -558,9 +558,9 @@ input, textarea{
     }
       
     .menu-responsive {
-        width: 30px;
-        height: 30px;
+        font-size: 40px;
         display: block;
+        color: black;
     }
       
     .nav a {
