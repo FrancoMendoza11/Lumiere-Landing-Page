@@ -701,7 +701,27 @@ input, textarea{
     .oferta div p{
         line-height: 30px;
     }
+/*Inicia la sección del contacto*/
+    .contact{
+        text-align: center;
+    }
+    .contact h1{
+        margin: 0 auto;
+        padding-bottom: 2vh;
+    }
+    form,.form-row, .form-group ,.name, .mail{
+        width: 100%;
+        flex-direction: column; 
+    }
+    textarea{
+        width: 100%;
+    }
 
+    button[type="submit"]{
+        width: 100px; 
+        margin: 10px auto;  
+    }
+/*finaliza la sección del contacto*/
     .copyright p{
        margin-left: 0;   
        text-align: center;
