@@ -125,6 +125,7 @@ p{
 }
 
 
+
 .cuadrado1 h2,.cuadrado2 h2,.cuadrado3 h2{
     display: flex;
     justify-content: center;
@@ -570,7 +571,7 @@ input, textarea{
 
 /*COMIENZA EL DISEÑO DEL REPONSIVE*/
 
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 1000px){
     
     body{
        width: 100%;
@@ -653,16 +654,24 @@ input, textarea{
         height: 100%;
         text-align: center;
         justify-items: center;
+        justify-content: center;
     }
      
     .cursos div{
         display: block;
         width: 100%;
     }
+
+    .cuadrado1 img, .cuadrado2 img{
+        margin-left: 35%;
+    }
     
     .cursos img{
         margin-top: 20px;
+        justify-content: center;
     }
+
+
 /*Finaliza la sección del CURSO LUMIERE*/
 
 /*Inicia la sección de PROGRMA*/
@@ -767,6 +776,11 @@ input, textarea{
         margin: 0 auto;
         padding-bottom: 2vh;
     }
+
+    .mail{
+        margin: 0;
+    }
+
     form,.form-row, .form-group ,.name, .mail{
         width: 100%;
         flex-direction: column; 
