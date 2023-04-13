@@ -582,8 +582,8 @@ input, textarea{
 
 /*COMIENZA EL DISEÑO DEL REPONSIVE*/
 
-@media only screen and (max-width: 1000px){
-
+@media only screen and (max-width: 767px){
+    
     body{
        width: 100%;
     }
@@ -780,11 +780,11 @@ input, textarea{
         padding-bottom: 2vh;
     }
     form,.form-row, .form-group ,.name, .mail{
-        width: 130%;
+        width: 100%;
         flex-direction: column; 
     }
     textarea{
-        width: 160%;
+        width: 100%;
     }
 
     button[type="submit"]{
