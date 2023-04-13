@@ -207,7 +207,7 @@ p{
 }
 /*Finaliza la sección de PROGRAMA Y OFERTA*/
 
-/*Su proposito es ser rellenado con una IMAGEN de FONDO*/
+/*su proposito es ser rellenado con una IMAGEN de FONDO*/  
 .imagen-decoration{
     background-image: url(fotografia3.jpg);
     filter: grayscale(80%);
@@ -227,6 +227,7 @@ p{
     
 }
 
+/*Su poropisito es meramente de ESTETICA */
 .rectangulo{
     position: absolute;
     z-index: -1;
@@ -564,7 +565,7 @@ input, textarea{
     body{
        width: 100%;
     }
-/*Inicia el área del HEADER*/  
+/*Inicia la sección del HEADER*/
     header {
         display: flex;
         flex-direction: column;
@@ -606,9 +607,9 @@ input, textarea{
         display: block;
         margin-top: 10px;
     }
- /*Finaliza el área del HEADER*/   
+/*Finaliza la sección del HEADER*/
     
- /*Inica el área del HERO*/  
+/*Inicia la sección del HERO*/
     .hero{
         background: linear-gradient(70deg, #252425, #61575B,  #7C7679);
     }
@@ -631,9 +632,9 @@ input, textarea{
         left: 5vh;
         top: 65vh;
     }
-/*Finaliza el área del HERO*/  
+/*Finaliza la sección del HERO*/
 
-/*Incia el área del CURSO LUMIERE*/  
+/*Inicia la sección del CURSO LIMIERE*/
     .cuadrados{
         justify-items: center;
     }
@@ -652,9 +653,9 @@ input, textarea{
     .cursos img{
         margin-top: 20px;
     }
-/*Finaliza el área del CURSO LUMIERE*/  
+/*Finaliza la sección del CURSO LUMIERE*/
 
-/*Incia el área de PROGRAMA*/  
+/*Inicia la sección de PROGRMA*/
     .programa{
         display: flex;
         text-align: center;
@@ -675,7 +676,7 @@ input, textarea{
     .programa div{
         justify-content: center;
     }
-/*Finaliza el área de PROGRAMA*/  
+/*Finaliza la sección de PROGRAMA*/
 
 /*su proposito es ser rellenado con una IMAGEN de FONDO*/  
     .imagen-decoration{
@@ -685,15 +686,15 @@ input, textarea{
     .rectangulo{
         display: none;
     }
-/*Inicia el área de SOPORTE*/
+/*Inicia la sección de SOPORTE*/
     .soporte img{
         display: none;
     }
 
 
-/*Finaliza el área de SOPORTE*/
+/*Finaliza la sección de SOPORTE*/
 
-/*Incia el área de ABOUT*/  
+/*Inicia la sección de ABOUT*/
     .aboutus{
         display: flex;
         margin-left: 3vh;
@@ -707,9 +708,9 @@ input, textarea{
     .cuadro-about1, .cuadro-about2, .cuadro-about3{
         display: none;
     }
-/*Finaliza el área de ABOUT*/  
+/*Finaliza la sección de ABOUT */
 
-/*Incia el área de REWIEWS O RESEÑAS*/  
+/*Inicia la sección de REWIEWS O RESEÑAS*/
     .rewiews{
         justify-content: center;
         padding:1vh;
@@ -731,9 +732,9 @@ input, textarea{
         justify-content: center;
         width: 200%;
     }
-/*Finaliza el área de REWIEWS O RESEÑAS*/  
+/*Finaliza la sección de REWIEWS O RESEÑAS*/
    
-/*Incia el área de OFERTA*/  
+/*Inicia la sección de OFERTA*/  
     .oferta{
         display: flex;
     }
@@ -745,9 +746,9 @@ input, textarea{
     .oferta div p{
         line-height: 30px;
     }
-/*Finaliza el área de OFERTA*/
+/*Finaliza la seccón de OFERTA*/
 
-/*Inicia el área de CONTACTO*/
+/*Inicia la sección de CONTACTO*/
     .contact{
         text-align: center;
     }
@@ -767,7 +768,7 @@ input, textarea{
         width: 100px; 
         margin: 10px auto;  
     }
-/*Finaliza el área de CONTACTO*/
+/*Finaliza la sección de CONTACTO*/
 
     .copyright p{
        margin-left: 0;   
