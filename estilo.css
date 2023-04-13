@@ -424,7 +424,8 @@ p{
     font-size: 50px;
     font-weight: bold;
     margin-bottom: 30px;
-    margin-left: 65vh;
+    display: flex;
+    justify-content: center;
 }
 
 form {
@@ -462,10 +463,16 @@ button[type="submit"] {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    margin-left: 30vh;
+    /* margin-left: 30vh; */
     width: 200px;
+    
 }
-  
+
+.botoncontact{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
   
 .name{
     width: 250px;
@@ -738,7 +745,7 @@ input, textarea{
     .oferta div p{
         line-height: 30px;
     }
-/*Finaliza el área de OFERTA*/  
+/*Finaliza el área de OFERTA*/
 
 /*Inicia el área de CONTACTO*/
     .contact{
