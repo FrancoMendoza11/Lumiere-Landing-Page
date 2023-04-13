@@ -9,7 +9,7 @@
 html{
     scroll-behavior: smooth;
 }
-
+/*Inicia la sección del HEADER*/
 .menu-responsive{
     display: none;
 }
@@ -37,7 +37,9 @@ a{
     color: #252425;
     font-size: 17px;
 }
+/*Finaliza la sección del HEADER*/
 
+/*Inicia la sección del HERO*/
 p{
     line-height: 25px;
 }
@@ -74,7 +76,9 @@ p{
     width: 100vh;
     height: 100vh;
 }
+/*Finaliza la sección del HERO*/
 
+/*Inicia la sección del CURSO LIMIERE*/
 .cursos{
     display:flex;
     margin-top: 1vh;
@@ -161,7 +165,9 @@ p{
 .cuadrado1 p,.cuadrado2 p, .cuadrado3 p{
     margin-top: 20px;
 }
+/*Finaliza la sección del CURSO LUMIERE*/
 
+/*Inicia la sección de PROGRMA y OFERTA*/
 .programa, .oferta{
     background: linear-gradient(70deg, #252425, #61575B,  #7C7679);
     text-align: center;
@@ -199,7 +205,9 @@ p{
     font-weight: bold;
     border: none;
 }
+/*Finaliza la sección de PROGRAMA Y OFERTA*/
 
+/*su proposito es ser rellenado con una IMAGEN de FONDO*/  
 .imagen-decoration{
     background-image: url(fotografia3.jpg);
     filter: grayscale(80%);
@@ -209,6 +217,7 @@ p{
     transition: 2s;
 }
 
+/*Inicia la sección de ABOUT*/
 .aboutus{
     height: 100vh;
     /* padding:10vh; */
@@ -218,6 +227,7 @@ p{
     
 }
 
+/*Su poropisito es meramente de ESTETICA */
 .rectangulo{
     position: absolute;
     z-index: -1;
@@ -227,6 +237,7 @@ p{
     border-bottom-right-radius: 250px;
     right: 10vh;
 }
+
 
 .texto-about-us{
     width: 60vh;
@@ -295,7 +306,9 @@ p{
     margin-top: 5px;
 }
 
-/* Fin about */
+/*Finaliza la sección de ABOUT */
+
+/*Inicia la sección de REWIEWS O RESEÑAS*/
 .rewiews{
     display: flex;
     padding: 15vh;
@@ -354,7 +367,9 @@ p{
     position:absolute;
     bottom: 10vh;
 }
+/*Finaliza la sección de REWIEWS O RESEÑAS*/
 
+/*Inicia la sección de SOPORTE*/
 .soporte{
    padding-top: 20px;
    height: 100vh;
@@ -419,7 +434,9 @@ p{
 .texto div p b{
     color: #252425;
 }
+/*Finaliza la sección de SOPORTE*/
 
+/*Inicia la sección de CONTACTO*/
 .contact{
     padding: 20vh;
 }
@@ -490,7 +507,9 @@ button[type="submit"] {
 textarea{
     height: 200px;
 }
+/*Finaliza la sección de CONTACTO*/
 
+/*Inicia la sección de SOCIAL*/
 .social{
     background: linear-gradient(70deg, #252425, #61575B,  #7C7679);
     height: 30vh;
@@ -512,7 +531,9 @@ i{
     font-size: 30px;
     margin-left: 20px;
 }
+/*Finaliza la sección de SOCIAL*/
 
+/*Inicia la sección de COPYRIGHT*/
 .copyright{
     padding: 3vh;
 }
@@ -521,8 +542,9 @@ i{
     margin-left: 70vh;
     color: #61575B;
 }
+/*Finaliza la sección de COPYTICHT*/
 
-/* Apartado de animaciones */
+/* Inicio del APARTADO DE ANIMACIONES */
 
 .animar:hover{
     background: linear-gradient(70deg, #252425, #61575B,  #7C7679);
@@ -555,15 +577,16 @@ input, textarea{
     filter: none;
     transition: 2s;
 }
+/*Finaliza del APARTADO DE ANIMACIONES*/
 
-/* Comienzo de diseño responsive*/
+/*COMIENZA EL DISEÑO DEL REPONSIVE*/
 
 @media only screen and (max-width: 1000px){
 
     body{
        width: 100%;
     }
-
+/*Inicia la sección del HEADER*/
     header {
         display: flex;
         flex-direction: column;
@@ -605,8 +628,9 @@ input, textarea{
         display: block;
         margin-top: 10px;
     }
+/*Finaliza la sección del HEADER*/
     
-    
+/*Inicia la sección del HERO*/
     .hero{
         background: linear-gradient(70deg, #252425, #61575B,  #7C7679);
     }
@@ -629,7 +653,9 @@ input, textarea{
         left: 5vh;
         top: 65vh;
     }
+/*Finaliza la sección del HERO*/
 
+/*Inicia la sección del CURSO LIMIERE*/
     .cuadrados{
         justify-items: center;
     }
@@ -648,7 +674,9 @@ input, textarea{
     .cursos img{
         margin-top: 20px;
     }
+/*Finaliza la sección del CURSO LUMIERE*/
 
+/*Inicia la sección de PROGRMA*/
     .programa{
         display: flex;
         text-align: center;
@@ -669,19 +697,25 @@ input, textarea{
     .programa div{
         justify-content: center;
     }
+/*Finaliza la sección de PROGRAMA*/
 
+/*su proposito es ser rellenado con una IMAGEN de FONDO*/  
     .imagen-decoration{
         display: none;
     }
-
+/*Su poropisito es meramente de ESTETICA */
     .rectangulo{
         display: none;
     }
-
+/*Inicia la sección de SOPORTE*/
     .soporte img{
         display: none;
     }
 
+
+/*Finaliza la sección de SOPORTE*/
+
+/*Inicia la sección de ABOUT*/
     .aboutus{
         display: flex;
         margin-left: 3vh;
@@ -690,8 +724,14 @@ input, textarea{
     .texto-about-us{
         justify-content: center;
         margin: 0 auto;
+    } 
+    
+    .cuadro-about1, .cuadro-about2, .cuadro-about3{
+        display: none;
     }
+/*Finaliza la sección de ABOUT */
 
+/*Inicia la sección de REWIEWS O RESEÑAS*/
     .rewiews{
         justify-content: center;
         padding:1vh;
@@ -713,11 +753,9 @@ input, textarea{
         justify-content: center;
         width: 200%;
     }
-
-    .cuadro-about1, .cuadro-about2, .cuadro-about3{
-        display: none;
-    }
-
+/*Finaliza la sección de REWIEWS O RESEÑAS*/
+   
+/*Inicia la sección de OFERTA*/  
     .oferta{
         display: flex;
     }
@@ -729,10 +767,9 @@ input, textarea{
     .oferta div p{
         line-height: 30px;
     }
+/*Finaliza la seccón de OFERTA*/
 
-
-/*Inicia la sección del contacto*/
-
+/*Inicia la sección de CONTACTO*/
     .contact{
         text-align: center;
     }
@@ -752,7 +789,8 @@ input, textarea{
         width: 100px; 
         margin: 10px auto;  
     }
-/*finaliza la sección del contacto*/
+/*Finaliza la sección de CONTACTO*/
+
     .copyright p{
        margin-left: 0;   
        text-align: center;
