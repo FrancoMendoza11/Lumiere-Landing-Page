@@ -3,6 +3,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
 }
 
@@ -380,17 +381,15 @@ p{
     height: 100%;
     align-items: center;
     justify-content: space-around;
-
 }
 
-/* .lista-soporte{
-    width: 30%; 
-    height: 30%; 
+.lista-soporte{
     margin-top: 15px;
-    line-height: 30px;
-    margin-left: 70px; 
-}  */
+} 
 
+.lista-soporte p{
+    margin-top: 15px;
+} 
 
 .imagen img{
     width: 100%;
@@ -420,15 +419,15 @@ p{
     width: 30%;
     /* height: 100%; */
 }
-.texto div h1{
+.text1 div h1{
    color: #252425;
    font-size: 35px;
    font-weight: bold;
    margin-bottom: 20px;
 }
 
-.texto div p{
-    margin-top: 30px;
+.text1 div p{
+    margin-top: 15px;
 }
 
 .texto div p b{
@@ -724,6 +723,7 @@ input, textarea{
     .texto-about-us{
         justify-content: center;
         margin: 0 auto;
+        width: 80%;
     } 
     
     .cuadro-about1, .cuadro-about2, .cuadro-about3{
@@ -733,10 +733,9 @@ input, textarea{
 
 /*Inicia la sección de REWIEWS O RESEÑAS*/
     .rewiews{
+        width:100%;
         justify-content: center;
-        padding:1vh;
-        margin-left: 0;
-        width: 100%;
+        margin:0 auto;
     }
 
     .reseña2{
@@ -751,12 +750,12 @@ input, textarea{
     .rewiews1{
         display: block;
         justify-content: center;
-        width: 200%;
     }
 /*Finaliza la sección de REWIEWS O RESEÑAS*/
    
 /*Inicia la sección de OFERTA*/  
     .oferta{
+        width: 100%;
         display: flex;
     }
 
@@ -771,18 +770,19 @@ input, textarea{
 
 /*Inicia la sección de CONTACTO*/
     .contact{
-        text-align: center;
+        justify-content: center;
+        align-items: center;
     }
     .contact h1{
         margin: 0 auto;
         padding-bottom: 2vh;
     }
     form,.form-row, .form-group ,.name, .mail{
-        width: 100%;
+        width: 130%;
         flex-direction: column; 
     }
     textarea{
-        width: 100%;
+        width: 160%;
     }
 
     button[type="submit"]{
@@ -791,31 +791,39 @@ input, textarea{
     }
 /*Finaliza la sección de CONTACTO*/
 
+
+/* Comienza la seccion copyright del footer */
     .copyright p{
        margin-left: 0;   
        text-align: center;
     }
+/* Termina la seccion copyright del footer */
+
 
 
     /*Inicia la sección del soporte*/
     .soporte{
         display: flex;
-        margin-left: 15px;
+        margin: 0 auto;
+        padding: 2vh;
+        height: 100%;
     }
+
     .imagen{
         display: none;
     }
 
     .soportecont{
-        width: 100%;
+        width: 80%;
+        text-align: justify;
     }
 
     .text1{
-        width: 100%;
+        width: 80%;
     }
 
     .lista-soporte{
-        width: 100%;
+        width: 80%;
     }
 
 
