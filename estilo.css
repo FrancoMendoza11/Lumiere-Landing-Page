@@ -100,7 +100,6 @@ p{
     color:#252425;  
     /* position: absolute;
     left: 70vh; */
-    bottom: -25vh;
     font-size: 50px;
     display: flex;
     justify-content: center;
@@ -233,7 +232,7 @@ p{
     position: absolute;
     z-index: -1;
     width: 300px; 
-    height: 125vh; 
+    height: 95vh; 
     background: linear-gradient(70deg, #252425, #61575B,  #7C7679);
     border-bottom-right-radius: 250px;
     right: 10vh;
@@ -277,8 +276,8 @@ p{
 }
 
 
-.cuadro-about2, .cuadro-about3{
-    margin-top: 40px;
+.cuadro-about1,.cuadro-about2, .cuadro-about3{
+    margin-top: 2vh;
 }
 
 .cuadro-about1 p, .cuadro-about2 p, .cuadro-about3 p, .cuadro-about1 h2, .cuadro-about2 h2, .cuadro-about3 h2{
@@ -576,6 +575,9 @@ input, textarea{
     filter: none;
     transition: 2s;
 }
+
+
+
 /*Finaliza del APARTADO DE ANIMACIONES*/
 
 /*COMIENZA EL DISEÑO DEL REPONSIVE*/
