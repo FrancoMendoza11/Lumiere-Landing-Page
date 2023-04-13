@@ -436,7 +436,10 @@ p{
 
 /*Inicia la sección de CONTACTO*/
 .contact{
-    padding: 20vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .contact h1{
@@ -500,6 +503,8 @@ button[type="submit"] {
 
 .mail{
     width: 250px;
+    margin-left: 20px;
+    
 }
  
 textarea{
@@ -828,7 +833,9 @@ input, textarea{
         width: 80%;
     }
 
-
+    .mail{
+        margin-left: 0px;
+    }
 
 
 
