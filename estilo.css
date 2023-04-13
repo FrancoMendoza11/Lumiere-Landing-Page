@@ -98,8 +98,6 @@ p{
 
 .cursos h1{
     color:#252425;  
-    /* position: absolute;
-    left: 70vh; */
     font-size: 50px;
     display: flex;
     justify-content: center;
@@ -111,13 +109,9 @@ p{
 }
 
 .cuadrado1, .cuadrado2, .cuadrado3{
-    /* margin-left: 10vh; */
     width: 20%;
 }
 
-/* .cuadrado1, .cuadrado2, .cuadrado2{
-    margin-right: 5vh;
-}  */
 
  .cuadrado1 img, .cuadrado2 img, .cuadrado2 img{
     display: flex;
@@ -220,7 +214,6 @@ p{
 /*Inicia la sección de ABOUT*/
 .aboutus{
     height: 100vh;
-    /* padding:10vh; */
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -268,7 +261,6 @@ p{
    border: solid 2px #61575B;
    width: 360px;
    text-align: end;
-   /* margin-left: 110vh; esto esta mal */
    border-radius: 10px;
    padding: 5px;
    box-shadow: 1px 1px 10px#252425;
@@ -392,16 +384,10 @@ p{
 
 .imagen img{
     width: 100%;
-    /* position: absolute;
-    margin-top: 20vh;
-    margin-left: 10vh; */
     box-shadow: 1px 1px 5px 1px #61575B;
 }
 
 .texto{
-    /* margin-left: 100vh; */
-    /* width: 30%; */
-    display: flex;
     flex-direction: column;
 }
 
@@ -411,12 +397,10 @@ p{
     flex-direction: column;
 }
 
-/* .texto, .imagen{
-    margin-bottom: 100px;
-} */
+
 .imagen{
     width: 30%;
-    /* height: 100%; */
+
 }
 .text1 div h1{
    color: #252425;
@@ -486,7 +470,6 @@ button[type="submit"] {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    /* margin-left: 30vh; */
     width: 200px;
     
 }
@@ -587,7 +570,7 @@ input, textarea{
 
 /*COMIENZA EL DISEÑO DEL REPONSIVE*/
 
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 1000px){
     
     body{
        width: 100%;
@@ -837,7 +820,7 @@ input, textarea{
         margin-left: 0px;
     }
 
-
+   
 
 }
 
