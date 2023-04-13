@@ -663,7 +663,7 @@ input, textarea{
     }
 
     .cuadrado1 img, .cuadrado2 img{
-        margin-left: 35%;
+        margin: 0 auto;
     }
     
     .cursos img{
@@ -829,9 +829,6 @@ input, textarea{
     .lista-soporte{
         width: 80%;
     }
-
-
-
 
 }
 
