@@ -460,6 +460,10 @@ form {
 label{
     margin-bottom: 5px;
 }
+
+.email-label{
+    margin-left: 20px;
+}
   
 input[type="text"],input[type="email"],textarea {
     padding: 10px;
@@ -672,7 +676,7 @@ input, textarea{
     }
 
     .cuadrado1 img, .cuadrado2 img{
-        margin-left: 35%;
+        margin: 0 auto;
     }
     
     .cursos img{
@@ -706,21 +710,20 @@ input, textarea{
     }
 /*Finaliza la sección de PROGRAMA*/
 
-/*su proposito es ser rellenado con una IMAGEN de FONDO*/  
+
     .imagen-decoration{
         display: none;
     }
-/*Su poropisito es meramente de ESTETICA */
+
     .rectangulo{
         display: none;
     }
-/*Inicia la sección de SOPORTE*/
+
     .soporte img{
         display: none;
     }
    
 
-/*Finaliza la sección de SOPORTE*/
 
 /*Inicia la sección de ABOUT*/
     .aboutus{
@@ -748,6 +751,7 @@ input, textarea{
 
     .reseña2{
         display: block;
+        margin:0 auto;
     }
 
     .rewiews h1{
@@ -789,6 +793,11 @@ input, textarea{
     .mail{
         margin: 0;
     }
+    
+    .email-label{
+        margin-left: 0;
+        margin-bottom: 3px;
+    }
 
     form,.form-row, .form-group ,.name, .mail{
         width: 100%;
@@ -829,6 +838,7 @@ input, textarea{
     .soportecont{
         width: 80%;
         text-align: justify;
+        margin: 0 auto;
     }
 
     .text1{
