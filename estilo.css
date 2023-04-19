@@ -805,22 +805,16 @@ input, textarea{
         margin: 0 auto;
         padding-bottom: 2vh;
     }
-
-    .mail{
-        margin: 0;
-    }
-    
-    .email-label{
-        margin-left: 0;
-        margin-bottom: 3px;
-    }
-
     form,.form-row, .form-group ,.name, .mail{
-        width: 100%;
+        width: 200px;
         flex-direction: column; 
     }
     textarea{
-        width: 100%;
+        width: 200px;
+    }
+
+    .mail , .email-label{
+        margin: 0;
     }
 
     button[type="submit"]{
